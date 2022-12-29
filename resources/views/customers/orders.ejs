@@ -41,7 +41,7 @@
                                 COD
                             </td>
                             <td class="border px-4 py-2">
-                                <% if(order.status === "delivered"){ %>
+                                <% if(order.status !== "delivered"){ %>
                                     Not delivered
                                 <% }else{ %> 
                                     Delivered
